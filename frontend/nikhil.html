@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Train Booking</title>
+    <link rel="stylesheet" href="nikhil1.css">
+</head>
+<body>
+
+<h1>🚆 Smart Train Booking System</h1>
+
+<div id="authBox">
+    <h2>Login</h2>
+    <input id="user" placeholder="Username">
+    <input id="pass" type="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+</div>
+
+<div id="app" style="display:none;">
+    <h2>Available Trains</h2>
+    <div id="trainContainer"></div>
+
+    <h2>Your Bookings</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th><th>User</th><th>Train</th><th>Type</th><th>Seats</th><th>Status</th><th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="bookingTable"></tbody>
+    </table>
+</div>
+
+<script src="nikhil2.js"></script>
+</body>
+</html>

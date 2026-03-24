@@ -1,0 +1,62 @@
+body{
+    margin:0;
+    font-family:'Segoe UI';
+    background: linear-gradient(135deg,#1d2671,#c33764);
+    color:white;
+}
+
+h1{
+    text-align:center;
+    padding:20px;
+}
+
+#authBox{
+    width:320px;
+    margin:80px auto;
+    background:rgba(255,255,255,0.1);
+    padding:25px;
+    border-radius:15px;
+    backdrop-filter: blur(10px);
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:none;
+    border-radius:5px;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    background:#00c9ff;
+    border:none;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#92fe9d;
+}
+
+#trainContainer{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:rgba(255,255,255,0.15);
+    padding:20px;
+    border-radius:15px;
+    backdrop-filter: blur(10px);
+}
+
+table{
+    width:100%;
+    background:white;
+    color:black;
+    margin-top:20px;
+}
